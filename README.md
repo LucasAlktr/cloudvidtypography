@@ -1,4 +1,4 @@
-# Cloud Vid Pattern Library - Group 9
+# Cloud Vid Pattern Library
 
 Welcome to the Cloud Vid Pattern Library. This pattern library provides a collection of UI components and design guidelines that you can use in your data dashboard projects. It is designed to help you create a structured and visually appealing data dashboard for your cloud video application.
 
