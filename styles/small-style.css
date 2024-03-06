@@ -108,9 +108,12 @@ header {
   z-index: 2; /* Certifica-se de que o menu esteja acima do conteúdo */
 }
 
-.background-image-site {
-  width: 100%; /* Adjust the width to fill the container */
+.logo-background-container{
+  width: 100%;
+  max-height: 100%; /* Ajuste a altura conforme necessário */
+  overflow: hidden;
 }
+
 
 .container {
   display: block;
@@ -121,9 +124,9 @@ header {
 }
 
 /* Make the header image responsive */
-#header-image {
+.header-image-vertical {
   max-width: 100%;
-  height: auto;
+  height: 20px;
   width: 100%;
   display: block;
 }
@@ -187,7 +190,7 @@ li {
 
 .nav-link {
   font-family: "Kanit", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   color: black;
 }
 

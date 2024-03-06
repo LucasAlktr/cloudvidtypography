@@ -36,11 +36,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 2rem 0rem;
   }
 
   .nav-item {
-    margin-right: 15px;
+    margin-right: 10px;
     font-size: 20px;
   }
 }
@@ -50,12 +50,19 @@
 }
 
 /* Make the header image responsive */
-#header-image {
+.header-image-vertical {
   max-width: 100%;
-  height: auto;
+  height: 20px;
   width: 100%;
   display: block;
 }
+
+.background-image-site {
+  width: 100%;
+  max-height: 95vh;
+  object-fit: cover;
+}
+
 
 /* Breadcrumb Styles */
 .breadcrumb a {
