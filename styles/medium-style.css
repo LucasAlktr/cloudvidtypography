@@ -137,7 +137,6 @@ pre {
   width: 100%;
   height: 3px;
   border-radius: 5px;
-  -webkit-appearance: none; /* Remove default styling on WebKit browsers */
 }
 
 .pad-angle-input::-webkit-slider-thumb {

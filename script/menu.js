@@ -27,7 +27,7 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
   });
 }
 
-const headerLogoConatiner = document.querySelector('.header-logo-container');
-headerLogoConatiner.addEventListener('click', () => {
+const headerLogoContainer = document.querySelector('.header-logo-container');
+headerLogoContainer.addEventListener('click', () => {
   location.href = '/';
 });
